@@ -1,0 +1,52 @@
+{
+  "name": "nutimart",
+  "version": "1.0.0",
+  "description": "Marketplace ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "server": "node index.js",
+    "run-test": "nodemon test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbubakerTagelsir/nutimart.git"
+  },
+  "keywords": [
+    "e-commerce",
+    "nodejs",
+    "marketplace",
+    "api",
+    "mongodb",
+    "express",
+    "react"
+  ],
+  "author": "Abubaker Tagelsir <abubaker.tagelsir@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbubakerTagelsir/nutimart/issues"
+  },
+  "homepage": "https://github.com/AbubakerTagelsir/nutimart#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "express-session": "^1.17.0",
+    "gravatar": "^1.8.0",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
